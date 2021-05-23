@@ -1,5 +1,5 @@
 ---
-layout: post
+title: 抄一抄可能劣化过的弱智版本老剧本……
 description: 某个可能关于自由意志是说谎的谎言
 ---
 
