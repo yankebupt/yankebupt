@@ -7,13 +7,8 @@ script: jekyll build
 deploy:
   provider: pages
   edge: true
-  token: $GITHUB_TOKEN
+  token: $TOKEN
   cleanup: false
   keep_history: true
   on:
     branch: main
-
-# edge: true to ignore token
-env:
-  global:
-    secure: ewx6mEVCIivcmUMKssAPSqGdOAMEKn6Tsl26jca80la25wIKGmUpbWnBNlE84zfMmP0iFPOvevp8baeCxJbyxcHbIYKXSvX09MfUDabTxickPL0tPNsVTNxlf8ecRF7IrMevx9Ir1QCqRh+cslpGTTVb/y9J6jQiwYh4zvfimAwGRrtp19KAUlBJDyFZ5gN4mAA8RaB/WLnMzQatpZETelmFvNGWDhq6CxPs0Fy/BbFQ6IKHtAYgR5ZdnhsDbrpEoFa3OAdMQPnxCPhTMnpBHtNuZDlvGZBU9QR1sX67jmkitxySQusB3OGpiYuYqI+X6oCqQazE/LUSehuYh7xXLTE9hzVA8XUNEAhHOsbL4z6kISBynRq7WOrZcm/ymZ3/DfvIrJN/AIUmcN1AE9N5XYv2Tp3tvITMsj4t0QfhrK9FyNj16KmA0V4odhnm0ORmORivauSJWtdCwuPqovcHIsIoCF9hqdwSi3clgclalyDRiEEl31wR6SnD5qxL7VONvx0IyI2xi99Gnpil55w4PPZDx46RRn2Ci6x6rD3FmHgYik8/dLWT6dDqCrRFfeLTo/u/BOMQvcpbRUOAvNuC1mJp2sNJm6wI5n6Pdm9ClL91NDvN9KXp/O4F2fILvNNhwpHaRjH1kzDlAV13ROD/Fl/VKuTqRCVEkdKuK6hIKow=
