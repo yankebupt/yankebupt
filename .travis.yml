@@ -11,10 +11,10 @@ addons:
 #skipping rake failed.
 
 #trying script: jekyll build
-# before_script:jekyll clean
+#before_script:jekyll clean
 script: jekyll build
 
-dpl v2(modified)
+#dpl v2(modified)
 #use dpl v1(with no assigned provider)(which could be understand as 'standard','files' or ... 'github')
 deploy:
   provider: pages
