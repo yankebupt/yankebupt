@@ -1,4 +1,7 @@
 language: ruby
+
+cache: bundler
+
 addons:
   apt:
     packages:
@@ -6,12 +9,7 @@ addons:
 
 build: skip
 
-before_install:
-  - yes | gem update --system --force
-  - gem install bundler
-
-install:
-  - bundle install
+install: skip
 
 deploy:
   provider: pages
