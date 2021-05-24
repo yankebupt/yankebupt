@@ -6,9 +6,10 @@ addons:
 script: jekyll build
 deploy:
   provider: pages
+  edge: true
   cleanup: false
-  github_token: $GITHUB_TOKEN
   keep_history: true
   on:
     branch: main
-#notoken
+
+# edge: true to ignore token
