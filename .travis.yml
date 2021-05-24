@@ -2,6 +2,7 @@ language: ruby
 cache: bundler
 sudo: false
 
+script: bundle install
 script: bundle exec jekyll build
 
 after_success:
