@@ -3,3 +3,7 @@ cache: bundler
 sudo: false
 
 script: bundle exec jekyll build
+
+after_success:
+  - chmod 777 deploy.sh
+  - ./deploy.sh
