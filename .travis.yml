@@ -1,7 +1,5 @@
 language: ruby
 
-cache: bundler
-
 addons:
   apt:
     packages:
