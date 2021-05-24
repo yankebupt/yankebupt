@@ -11,7 +11,7 @@ addons:
 #skipping rake failed.
 
 #trying script: jekyll build
-#before_script: jekyll clean
+# before_script: jekyll clean
 script: jekyll build
 
 dpl v2(modified)
