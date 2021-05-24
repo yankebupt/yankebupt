@@ -1,0 +1,14 @@
+language: ruby
+addons:
+  apt:
+    packages:
+    - libcurl4-openssl-dev
+script: jekyll build
+deploy:
+  provider: pages
+  edge: true
+  token: $TOKEN
+  cleanup: false
+  keep_history: true
+  on:
+    branch: main
