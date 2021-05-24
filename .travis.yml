@@ -8,6 +8,10 @@ cache: bundler # caching bundler gem packages will speed up build
 
 build: skip
 
+before_install:
+  - yes | gem update --system --force
+  - gem install bundler
+
 install:
   - bundle install
 
