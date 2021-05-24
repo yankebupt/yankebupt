@@ -14,10 +14,10 @@ addons:
 script: jekyll build
 
 #dpl v2(modified)
-deploy:
+#deploy:
   #provider: pages
-  cleanup: false
+  #cleanup: false
   #github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
+  #keep_history: true
   #on:
   #  branch: main
