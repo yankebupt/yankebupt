@@ -1,8 +1,18 @@
 language: ruby
-install:
-  - bundle install
+rvm:
+  - 2.6.3
+
+addons:
+  apt:
+    packages:
+    - libcurl4-openssl-dev
+
+cache: bundler # caching bundler gem packages will speed up build
 
 build: skip
+
+install:
+  - bundle install
 
 deploy:
   provider: pages
