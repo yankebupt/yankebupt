@@ -6,6 +6,9 @@ addons:
     packages:
     - libcurl4-openssl-dev
 
+#try skipping rake. Don't know what rake does
+script: skip
+
 deploy:
   provider: pages
   cleanup: false
