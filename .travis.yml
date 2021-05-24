@@ -1,0 +1,5 @@
+language: ruby
+cache: bundler
+sudo: false
+
+script: bundle exec jekyll build
