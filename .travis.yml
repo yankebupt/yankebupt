@@ -1,24 +1,16 @@
 language: ruby
-
 addons:
   apt:
     packages:
     - libcurl4-openssl-dev
-
-#try skipping rake. Don't know what rake does
-#script: skip
-#skipping rake failed.
-
-#trying script: jekyll build
-#before_script:jekyll clean
 script: jekyll build
-
-#dpl v2(modified)
-#use dpl v1(with no assigned provider)(which could be understand as 'standard','files' or ... 'github')
 deploy:
   provider: pages
   cleanup: false
-  github_token: "$GITHUB_TOKEN"  # Set in the settings page of your repository, as a secure variable
+  github_token: $GITHUB_TOKEN
   keep_history: true
   on:
     branch: main
+env:
+  global:
+    secure: ewx6mEVCIivcmUMKssAPSqGdOAMEKn6Tsl26jca80la25wIKGmUpbWnBNlE84zfMmP0iFPOvevp8baeCxJbyxcHbIYKXSvX09MfUDabTxickPL0tPNsVTNxlf8ecRF7IrMevx9Ir1QCqRh+cslpGTTVb/y9J6jQiwYh4zvfimAwGRrtp19KAUlBJDyFZ5gN4mAA8RaB/WLnMzQatpZETelmFvNGWDhq6CxPs0Fy/BbFQ6IKHtAYgR5ZdnhsDbrpEoFa3OAdMQPnxCPhTMnpBHtNuZDlvGZBU9QR1sX67jmkitxySQusB3OGpiYuYqI+X6oCqQazE/LUSehuYh7xXLTE9hzVA8XUNEAhHOsbL4z6kISBynRq7WOrZcm/ymZ3/DfvIrJN/AIUmcN1AE9N5XYv2Tp3tvITMsj4t0QfhrK9FyNj16KmA0V4odhnm0ORmORivauSJWtdCwuPqovcHIsIoCF9hqdwSi3clgclalyDRiEEl31wR6SnD5qxL7VONvx0IyI2xi99Gnpil55w4PPZDx46RRn2Ci6x6rD3FmHgYik8/dLWT6dDqCrRFfeLTo/u/BOMQvcpbRUOAvNuC1mJp2sNJm6wI5n6Pdm9ClL91NDvN9KXp/O4F2fILvNNhwpHaRjH1kzDlAV13ROD/Fl/VKuTqRCVEkdKuK6hIKow=
