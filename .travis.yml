@@ -10,13 +10,14 @@ addons:
 #script: skip
 #skipping rake failed.
 
-#trying jekyll build
+#trying script: jekyll build
 script: jekyll build
 
+#dpl v2(modified)
 deploy:
-  provider: pages
+  #provider: pages
   cleanup: false
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  #github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
-  on:
-    branch: main
+  #on:
+  #  branch: main
