@@ -5,8 +5,6 @@ addons:
     packages:
     - libcurl4-openssl-dev
 
-script: skip
-
 deploy:
   provider: pages
   skip_cleanup: true
