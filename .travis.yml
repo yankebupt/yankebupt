@@ -10,6 +10,9 @@ addons:
 #script: skip
 #skipping rake failed.
 
+#trying jekyll build
+script: bundle exec jekyll build
+
 deploy:
   provider: pages
   cleanup: false
