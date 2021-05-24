@@ -7,9 +7,7 @@ addons:
     packages:
     - libcurl4-openssl-dev
 
-build: skip
-
-install: skip
+script: skip
 
 deploy:
   provider: pages
