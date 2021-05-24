@@ -4,8 +4,6 @@ addons:
     packages:
     - libcurl4-openssl-dev
 
-cache: bundler # caching bundler gem packages will speed up build
-
 build: skip
 
 before_install:
