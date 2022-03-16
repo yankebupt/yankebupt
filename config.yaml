@@ -1401,8 +1401,8 @@ rules:
   - DOMAIN,hamifans.emome.net,🎬国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🎬国外媒体
   - DOMAIN-SUFFIX,twitchcdn.net,🎬国外媒体
-  - DOMAIN-SUFFIX,ttvnw.net,🎬TWITCH
-  - DOMAIN-SUFFIX,jtvnw.net,🎬TWITCH
+  - DOMAIN-SUFFIX,ttvnw.net,⚓️TWITCH
+  - DOMAIN-SUFFIX,jtvnw.net,⚓️TWITCH
   - DOMAIN-SUFFIX,viu.com,🎬国外媒体
   - DOMAIN-SUFFIX,viu.tv,🎬国外媒体
   - DOMAIN,api.viu.now.com,🎬国外媒体
